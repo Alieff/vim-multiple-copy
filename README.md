@@ -12,15 +12,15 @@ Clone this repo to your plugin folder (usually in $HOME/.vim/bundle/)
 
 # How / Usage
 
-| key     | effect                                                                                          |
-|---------|-------------------------------------------------------------------------------------------------|
-| <a-z>   | clear register z                                                                                |
-| <a-c>   | copy then append selected text to register z                                                    |
-| <a-x>   | cut then append selected text to register z                                                     |
-| <a-o>   | paste text from first queue in register z, register z pointer unchanged                         |
-| <a-s-o> | paste text from first queue in register z, then move register z pointer to the next copied text |
-| <a-a>   | cycle to the next copied text                                                                   |
-| <a-d>   | cycle to the prev copied text                                                                   |
+| key      | effect                                                                                          |
+|----------|-------------------------------------------------------------------------------------------------|
+| `<a-z>`   | clear register z                                                                                |
+| `<a-c>`   | copy then append selected text to register z                                                    |
+| `<a-x>`   | cut then append selected text to register z                                                     |
+| `<a-o>`   | paste text from first queue in register z, register z pointer unchanged                         |
+| `<a-s-o>` | paste text from first queue in register z, then move register z pointer to the next copied text |
+| `<a-a>`   | cycle to the next copied text                                                                   |
+| `<a-d>`   | cycle to the prev copied text                                                                   |
 
 Extra:
 - You can also print register z, to print all copied text ('"zp' in normal mode)
